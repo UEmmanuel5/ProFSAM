@@ -1,0 +1,13 @@
+torch         # Install GPU-specific version separately (see README)
+torchvision
+torchaudio    # Install GPU-specific version separately (see README)
+opencv-python
+matplotlib
+numpy
+pandas
+tqdm
+pyyaml
+scikit-image
+scikit-learn
+jupyter
+ultralytics
