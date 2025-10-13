@@ -9,6 +9,22 @@ It provides a framework for evaluating **SAM2**, **MobileSAM**, and **TinySAM** 
 **Important**  
 To run the notebooks, you must **first clone/download the official SAM2.1, MobileSAM, and TinySAM repositories** from their respective sources, then place the provided `script/` folders from this repo into their correct locations.
 
+---
+
+##  Fire Segmentation Pipeline
+
+![Fire Segmentation Pipeline](assets/SAM_architecture.drawio.svg)
+
+**Figure:** The ProFSAM pipeline.
+
+1. Input image or video frame is processed by **YOLOv11n** to detect fire regions.
+2. Detected bounding boxes are passed as prompts (with optional points) to **SAM2 / MobileSAM / TinySAM**.
+3. The model outputs a segmentation mask, which is overlaid on the original frame for visualization.
+
+
+![Fire Segmentation Pipeline](assets/B-box.drawio.svg)
+
+**Figure:** Masks gotten through this pipeline vs Groundtruth masks.
 
 ---
 
@@ -181,22 +197,6 @@ The experiments in this work use the following publicly available datasets:
 
 ---
 
-##  Fire Segmentation Pipeline
-
-![Fire Segmentation Pipeline](assets/SAM_architecture.drawio.svg)
-
-**Figure:** The ProFSAM pipeline.
-
-1. Input image or video frame is processed by **YOLOv11n** to detect fire regions.
-2. Detected bounding boxes are passed as prompts (with optional points) to **SAM2 / MobileSAM / TinySAM**.
-3. The model outputs a segmentation mask, which is overlaid on the original frame for visualization.
-
-
-![Fire Segmentation Pipeline](assets/B-box.drawio.svg)
-
-**Figure:** Masks gotten through this pipeline vs Groundtruth masks.
-
----
 
 ##  Notebooks Reference
 
