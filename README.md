@@ -1,3 +1,6 @@
+[![License](https://img.shields.io/badge/License-INSERT--LICENSE-blue.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17340313.svg)](https://doi.org/10.5281/zenodo.17340313)
+
 # ProFSAM – Promptable Fire Segmentation using SAM2
 
 This repository contains **only the ProFSAM script folders and supporting code** for evaluating **SAM2**, **MobileSAM**, and **TinySAM** variants on fire segmentation tasks used in the study **"Promptable Fire Segmentation: Unleashing SAM2’s Potential for Real-Time Mobile Deployment with Strategic Bounding Box Guidance"**.
@@ -217,11 +220,34 @@ The experiments in this work use the following publicly available datasets:
 
 ##  Citation
 
+**Manuscript:**
+
 If you use this repository in your research, please cite:
 
 ```bibtex
-@article{ugwu2025promptablefiresam,
-  title={Promptable Fire Segmentation: Unleashing SAM2’s Potential for Real-Time Mobile Deployment with Strategic Bounding Box Guidance},
-  author={Ugwu, Emmanuel U. and Zhang, Xinming},
-  year={2025}
+@inproceedings{profsam2025,
+  author    = {Emmanuel U. Ugwu and Xinming Zhang},
+  title     = {Promptable Fire Segmentation: Unleashing SAM2's Potential for Real-Time Mobile Deployment with Strategic Bounding Box Guidance},
+  booktitle = {2026 9th International Conference on Image and Graphics Processing (ICIGP '26)},
+  year      = {2026},
+  address   = {Wuhan, China},
+  month     = jan,
+  note      = {to appear}
 }
+```
+
+**Code:**
+```bibtex
+@software{profsam2025,
+  author       = {Ugwu, Emmanuel U. and Zhang, Xinming},
+  title        = {Promptable Fire Segmentation: Unleashing SAM2’s Potential for Real-Time Mobile Deployment with Strategic Bounding Box Guidance},
+  year         = {2025},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.17340313},
+  url          = {https://doi.org/10.5281/zenodo.17340313}
+}
+```
+
+## License
+
+This work is released under **Apache-2.0** [LICENSE](LICENSE).
