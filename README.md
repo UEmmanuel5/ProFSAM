@@ -1,6 +1,7 @@
 [![License](https://img.shields.io/badge/License-INSERT--LICENSE-blue.svg)](LICENSE)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17340313.svg)](https://doi.org/10.5281/zenodo.17340313)
-
+[![HF Model](https://img.shields.io/badge/HF-Model-black)](https://huggingface.co/UEmmanuel5/ProFSAM-Fire-Detector)
+[![HF Space](https://img.shields.io/badge/HF-Space-black)](https://huggingface.co/spaces/UEmmanuel5/profsam-fire-demo)
 # ProFSAM – Promptable Fire Segmentation using SAM2
 
 This repository contains **only the ProFSAM script folders and supporting code** for evaluating **SAM2**, **MobileSAM**, and **TinySAM** variants on fire segmentation tasks used in the study **"Promptable Fire Segmentation: Unleashing SAM2’s Potential for Real-Time Mobile Deployment with Strategic Bounding Box Guidance"**.
