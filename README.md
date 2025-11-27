@@ -232,7 +232,7 @@ If you use this repository in your research, please cite:
   booktitle = {2026 9th International Conference on Image and Graphics Processing (ICIGP '26)},
   year      = {2026},
   address   = {Wuhan, China},
-  month     = jan,
+  month     = March,
   note      = {to appear}
 }
 ```
